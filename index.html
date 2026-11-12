@@ -8,13 +8,19 @@
 </head>
 <body>
 
-    <!-- 1. Header -->
+<!-- Header + Hero: общий контейнер -->
+<div class="header-hero">
+
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <a href="#" class="logo">
-                <img src="img/logo3_alfa.png" alt="Dr. Nabat Logo" class="logo-img">
+                <img src="img/logo3_alfa.png"
+                     alt="Dr. Nabat Logo"
+                     class="logo-img">
                 <span>Dr. Al-Nabatat</span>
             </a>
+
             <nav class="nav">
                 <a href="#services">Services</a>
                 <a href="#how-it-works">How We Work</a>
@@ -24,14 +30,22 @@
         </div>
     </header>
 
-    <!-- 2. Hero Section -->
+    <!-- Hero -->
     <section class="hero">
         <div class="container hero-container">
             <h1>Dr. Al-Nabatat</h1>
-            <p class="hero-subtitle">Between the seed and the harvest song,<br>we're the green hands helping along.</p>
+            <p class="hero-subtitle">
+                Between the seed and the harvest song,<br>
+                we're the green hands helping along.
+            </p>
             <a href="#contact" class="btn-main">Book a Field Visit</a>
         </div>
     </section>
+
+</div> <!-- Теперь закрываем контейнер ПОСЛЕ Hero -->
+
+
+<!-- Далее Services и остальные секции -->
 
     <!-- 3. Services Section -->
     <section id="services" class="services">
